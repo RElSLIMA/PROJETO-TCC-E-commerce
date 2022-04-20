@@ -1,0 +1,453 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: white;
+  margin: 0px;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: #e5e5e5;
+  min-width: 610px;
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+*/
+/* CABEÇALHO - INICIO */
+
+#cabeçalho {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background: #f5773a;
+  text-align: center;
+  line-height: 100px;
+}
+
+.esquerda {
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+
+.logoBranca {
+  position: static;
+  width: 72px;
+  height: 55.58px;
+  padding: 20px 60px;
+}
+
+.centro {
+  border: 1px solid #f5773a;
+  margin: 27px 0px;
+  padding: 10px 20px;
+  background: #ffffff;
+  display: inline-flex;
+  border-radius: 50px;
+  width: 40%;
+  height: 25px;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-size: 18px;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.direita {
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#iconecarrinhoID {
+  width: 35px;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+#iconeUsuarioID {
+  width: 30px;
+  justify-content: center;
+  margin-right: 60px;
+}
+
+.iconeCarrinho {
+  content: url("https://api.iconify.design/clarity/shopping-cart-line.svg?color=white");
+  width: 30px;
+  padding-top: 35px;
+}
+
+.iconeUsuario {
+  content: url("https://api.iconify.design/ant-design/user-outlined.svg?color=white");
+  width: 30px;
+  padding-top: 35px;
+  padding-right: 60px;
+}
+
+.iconeCarrinho:hover {
+  content: url("https://api.iconify.design/clarity/shopping-cart-line.svg?color=white");
+  width: 37px;
+  padding-top: 35px;
+}
+
+.iconeUsuario:hover {
+  content: url("https://api.iconify.design/ant-design/user-outlined.svg?color=white");
+  width: 35px;
+  padding-top: 35px;
+  padding-right: 60px;
+}
+
+/* CABEÇALHO - FIM */
+/* 
+
+
+
+
+
+
+
+
+
+*/
+/* RODAPE - INICIO*/
+
+#rodape {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background: #f5773a;
+  margin-top: 100px;
+}
+
+.direitosReservados {
+  width: 200px;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.direitaRodape {
+  width: 200px;
+  float: right;
+  padding-right: 25px;
+  padding-top: 40px;
+}
+
+.trabalheConosco a {
+  justify-content: center;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.trabalheConosco a:hover {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+/* RODAPE - FIM */
+/* 
+
+
+
+
+
+
+
+
+
+*/
+/* CONTEUDO - INICIO*/
+
+#conteudo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* 
+
+
+
+*/
+
+#Principal {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 70px;
+}
+
+#espaçoBanner {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 350px;
+  background: #f5f5f5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+#areaBanner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.Banner {
+  width: 100%;
+  max-width: 900px;
+}
+
+#setaE {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  margin-top: 160px;
+}
+
+#setaD {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  margin-top: 160px;
+}
+
+.setaEsquerda {
+  content: url("https://api.iconify.design/bi/arrow-left-circle-fill.svg?color=%23f5773a");
+  width: 40px;
+}
+.setaDireita {
+  content: url("https://api.iconify.design/bi/arrow-right-circle-fill.svg?color=%23f5773a");
+  width: 40px;
+}
+
+.setaEsquerda:hover {
+  content: url("https://api.iconify.design/bi/arrow-left-circle-fill.svg?color=%23f5773a");
+  width: 44px;
+}
+.setaDireita:hover {
+  content: url("https://api.iconify.design/bi/arrow-right-circle-fill.svg?color=%23f5773a");
+  width: 44px;
+}
+
+/* 
+
+
+
+*/
+
+#Secundario {
+  color: #f5773a;
+  font-size: 24px;
+  width: 80%;
+  margin-left: 100px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+/* 
+
+
+
+*/
+
+#Terciario {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#areaLimite {
+  width: 90%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#lojasParceiras {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#coluna1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 33%;
+  height: 900px;
+}
+#coluna2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 33%;
+  height: 900px;
+}
+#coluna3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 33%;
+  height: 900px;
+}
+
+@media screen and (max-width: 1600px) {
+  #lojasParceiras {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #coluna1 {
+    width: 80%;
+    height: 900px;
+  }
+  #coluna2 {
+    width: 80%;
+    height: 900px;
+  }
+  #coluna3 {
+    width: 80%;
+    height: 900px;
+  }
+}
+
+#loja {
+  background-color: #fafafa;
+  border-radius: 25px;
+  box-shadow: 0px 4px 16px rgba(59, 59, 59, 0.15);
+  width: 85%;
+  height: 180px;
+  margin-bottom: 20px;
+  min-width: 400px;
+  max-width: 1600px;
+}
+
+#loja:hover {
+  border: 3px solid #f5773a;
+  height: 174px;
+  width: 95%;
+}
+
+#imagemLoja {
+  content: url("https://api.iconify.design/healthicons/market-stall.svg");
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+
+#informçoesL {
+  width: 68%;
+  height: 100%;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#nomeLocal {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#nomeL {
+  color: #5e5e5e;
+}
+
+#localL {
+  color: #5e5e5e;
+  display: flex;
+  flex-direction: row;
+}
+
+#distancia {
+  padding-left: 5px;
+}
+
+#iconeLocal {
+  width: 40px;
+  float: left;
+  content: url("https://api.iconify.design/icon-park-outline/local-two.svg?color=%23545454");
+}
+.avaliaçao {
+  float: right;
+  color: #5e5e5e;
+  flex-direction: row;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+#estrelaIcone {
+  float: left;
+  content: url("https://api.iconify.design/ant-design/star-filled.svg?color=%23f2f53b");
+  width: 33px;
+  padding-top: 17px;
+}
+
+#nota {
+  float: right;
+  padding-left: 5px;
+}
+
+/* CONTEUDO - FIM */
+/* 
+
+
+
+
+
+
+
+
+*/
+/* CARRINHO - INICIO */
+
+/* CARRINHO - FIM */
